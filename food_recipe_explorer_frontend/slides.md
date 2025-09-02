@@ -2,7 +2,7 @@
 # Food Recipe Explorer
 theme: default
 title: Food Recipe Explorer
-class: !text-center
+class: text-center
 transition: slide-left
 mdc: true
 layout: cover
@@ -533,7 +533,7 @@ function mockRecipes(): Recipe[] {
       difficulty: 'Easy',
       servings: 2,
       calories: 420,
-      image: pics(1490818387583-1baba5e638af),
+      image: pics('1490818387583-1baba5e638af'),
       ingredients: [...common, 'chicken breast', 'lettuce', 'tomatoes', 'cucumber', 'lemon juice'],
       instructions: [
         'Season and grill chicken until cooked.',
@@ -550,7 +550,7 @@ function mockRecipes(): Recipe[] {
       difficulty: 'Easy',
       servings: 3,
       calories: 580,
-      image: pics(1504674900247-0877df9cc836),
+      image: pics('1504674900247-0877df9cc836'),
       ingredients: [...common, 'penne', 'tomato sauce', 'cream', 'parmesan', 'basil'],
       instructions: [
         'Cook pasta al dente.',
@@ -567,7 +567,7 @@ function mockRecipes(): Recipe[] {
       difficulty: 'Medium',
       servings: 2,
       calories: 650,
-      image: pics(1542444459-db63c8ab3e37),
+      image: pics('1542444459-db63c8ab3e37'),
       ingredients: [...common, 'beef strips', 'soy sauce', 'bell peppers', 'onion'],
       instructions: [
         'Stir-fry beef until browned; set aside.',
@@ -584,7 +584,7 @@ function mockRecipes(): Recipe[] {
       difficulty: 'Easy',
       servings: 1,
       calories: 320,
-      image: pics(1512621776951-a57141f2eefd),
+      image: pics('1512621776951-a57141f2eefd'),
       ingredients: [...common, 'sourdough', 'avocado', 'egg', 'chili flakes'],
       instructions: [
         'Toast bread; smash avocado with salt and lemon.',
@@ -600,7 +600,7 @@ function mockRecipes(): Recipe[] {
       difficulty: 'Easy',
       servings: 1,
       calories: 280,
-      image: pics(1490474418585-ba9bad8fd0ea),
+      image: pics('1490474418585-ba9bad8fd0ea'),
       ingredients: ['mango','banana','yogurt','honey','granola'],
       instructions: [
         'Blend mango, banana, yogurt, and honey.',
@@ -616,7 +616,7 @@ function mockRecipes(): Recipe[] {
       difficulty: 'Medium',
       servings: 2,
       calories: 510,
-      image: pics(1510627498534-cf7e9002facc),
+      image: pics('1510627498534-cf7e9002facc'),
       ingredients: ['quinoa','zucchini','carrots','broccoli','olive oil','salt','pepper'],
       instructions: [
         'Roast chopped veggies until tender.',
