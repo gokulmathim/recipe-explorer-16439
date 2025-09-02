@@ -329,7 +329,7 @@ html, body, #app {
   <header class="header">
     <div class="header-inner">
       <div class="brand">
-        <div class="logo" />
+        <div class="logo"></div>
         <div>
           <h1>Food Recipe Explorer</h1>
           <div style="font-size:.85rem;color:#6b7280">Explore. Cook. Enjoy.</div>
